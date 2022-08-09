@@ -17,7 +17,6 @@
 
   <body>
     <header class="header">
-      <!--imagen home-->
       <img class="imgindex" src="./assets/img/icons/Untitled-1.png" alt="Logo" width="100" />
       <section id="navegacion">
       <ul class="ul_nav">
@@ -31,7 +30,32 @@
     </header>
 
     <nav>
-      
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/img/wallpapernaruto.jpg" class="d-block w-100" alt="naruto" width="800">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/naruto-shippuden-konoha-wallpapers-hd-218499815.jpg" class="d-block w-100" alt="naruto" width="800">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/narutowallpaper2.jpg" class="d-block w-100" alt="naruto" width="800">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </nav>
 
     <main>
