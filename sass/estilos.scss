@@ -47,15 +47,6 @@ font-family: 'Lato' , serif;
 color: whitesmoke;    
 }
 
-
-.navbar {
-    background-color: black;
-}
-
-.form-control {
-width: 40%;
-}
-
 .Destacados 
 {
     display: flex;
@@ -91,7 +82,7 @@ font-family: 'Lato' , serif;
     grid-template-columns: repeat(2, 1fr);
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
-    grid-row-gap: 10px ;
+    grid-row-gap: 20px ;
 
 }
 
@@ -113,7 +104,10 @@ color: antiquewhite;
     padding: 0 15px;
 }
 
-
+.li_nav
+{
+    padding: 0 15px;
+}
 
 .color{
 
@@ -167,11 +161,6 @@ color: antiquewhite;
     background-color: black;
     color: rgb(110, 79, 110);
     padding: 20px 20px;
-}
-
-.navbar-colapse {
-
-    align-items: flex-start;
 }
 
 .ul_nav{
