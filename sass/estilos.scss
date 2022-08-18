@@ -22,18 +22,28 @@ align-items: center;
     font-size: 200%;
 }
 
-main section div {
-    width: 500px;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
-    border-radius: 10px;
-}
 
-div {
+.divpublicacion {
     display: flex;
     flex-direction: column;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+
 }
+
+.divboton {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.container-fluid {
+align-items: baseline;
+}
+
 .header {
 
     display: flex;
@@ -45,6 +55,15 @@ div {
 .inspiranlinks {
 font-family: 'Lato' , serif;
 color: whitesmoke;    
+}
+
+
+.navbar {
+    background-color: black;
+}
+
+.form-control {
+width: 40%;
 }
 
 .Destacados 
@@ -82,7 +101,7 @@ font-family: 'Lato' , serif;
     grid-template-columns: repeat(2, 1fr);
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
-    grid-row-gap: 20px ;
+    grid-row-gap: 5px ;
 
 }
 
@@ -104,10 +123,6 @@ color: antiquewhite;
     padding: 0 15px;
 }
 
-.li_nav
-{
-    padding: 0 15px;
-}
 
 .color{
 
@@ -147,6 +162,7 @@ color: antiquewhite;
     font-family: 'Lato' , serif;
     transition: all 1s;
     justify-content: center;
+
 }
 
 .boton:hover{
@@ -161,6 +177,11 @@ color: antiquewhite;
     background-color: black;
     color: rgb(110, 79, 110);
     padding: 20px 20px;
+}
+
+.navbar-colapse {
+
+    align-items: flex-start;
 }
 
 .ul_nav{

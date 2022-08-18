@@ -1,228 +1,166 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+body {
+  background-image: linear-gradient(black, purple); }
 
-
-body{
-    background-image: linear-gradient(black, purple);
-}
-
-.letras-top{
-display: flex;
-flex-direction: row;
-justify-content: center; 
-font-family: 'Lato', sans-serif;
-font-size: 40px;
-color: aliceblue;
-align-items: center; 
-}
+.letras-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+  color: aliceblue;
+  align-items: center; }
 
 .quienessomos {
-    color: aliceblue;
-    font-family: 'Lato', sans-serif;
-    align-content: center;
-    font-size: 200%;
-}
+  color: aliceblue;
+  font-family: 'Lato', sans-serif;
+  align-content: center;
+  font-size: 200%; }
 
-main section div {
-    width: 500px;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
-    border-radius: 10px;
-}
+.divpublicacion {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 20px; }
 
-div {
-    display: flex;
-    flex-direction: column;
-}
+.divboton {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px; }
+
+.container-fluid {
+  align-items: baseline; }
+
 .header {
-
-    display: flex;
-    justify-content: space-between;
-    background-image: linear-gradient(to bottom black , purple );
-    padding: 10px;
-}
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(to bottom black, purple);
+  padding: 10px; }
 
 .inspiranlinks {
-font-family: 'Lato' , serif;
-color: whitesmoke;    
-}
-
+  font-family: 'Lato' , serif;
+  color: whitesmoke; }
 
 .navbar {
-    background-color: black;
-}
+  background-color: black; }
 
 .form-control {
-width: 40%;
-}
+  width: 40%; }
 
-.Destacados 
-{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    color: aliceblue;
-
-}
-
+.Destacados {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue; }
 
 ul {
-    list-style: none;
-}
+  list-style: none; }
 
 .recuadro {
-font-family: 'Lato' , serif;
-}
-
-.imghome{
-    width: 350px;
-    height: 350px;
-    box-shadow: 10px 10px black;
-    padding: 30px auto;
-    border-radius: 5px;
-    align-items: center;
-    margin: auto;
-
-}
-
-.contenedorgrid{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-columns: repeat(4, 1fr);
-    justify-items: center;
-    grid-row-gap: 10px ;
-
-}
-
-.contenedorfotos {
-width: 350px;
-height: 350px;
-}
-
-
-.talles {
-
-font-family: 'Lato' , serif;
-color: antiquewhite;
-
-}
-
-.links {
-
-    padding: 0 15px;
-}
-
-
-
-.color{
-
-    color: whitesmoke;
-}
-
-.imgindex {
-    animation: tudo;
-    animation-duration: 0.05s;
-    animation-timing-function: ease-out;
-    animation-delay: 1s;
-    animation-iteration-count: 1;
-   }
-
-@keyframes tudo {
-    0%{
-        transform: scale (.5);
-        border-radius: 100%;
-    }
-    50%{
-        transform: scale(1);
-    }
-    100%{
-        transform: scale(2);
-    }
-    
-}
-
-.boton{
-    margin: auto;
-    font-size: 15px;
-    padding: 10px 30px;
-    background-color: black;
-    border-radius: 20px;
-    text-decoration: none;
-    color: grey;
-    font-family: 'Lato' , serif;
-    transition: all 1s;
-    justify-content: center;
-}
-
-.boton:hover{
-
-    height: 50px;
-    background-color: purple;
-}
-
-#piedepagina {
-    font-family: 'Lato', sans-serif;
-    width: 100%;
-    background-color: black;
-    color: rgb(110, 79, 110);
-    padding: 20px 20px;
-}
-
-.navbar-colapse {
-
-    align-items: flex-start;
-}
-
-.ul_nav{
-    display: flex;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-    
-
-}
-#navegacion {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    padding: 0px;
-    font-family: 'Lato' , serif;
-    text-decoration: none;
-}
-
-.redessociales {
-    color: aliceblue;
-
-}
-
-@media only screen and (max-width:768px){
-
-
-}
-
-@media only screen and (max-width:576px){
-
-header {
-
-    flex-direction: column;
-    align-items: center;
-}
+  font-family: 'Lato' , serif; }
 
 .imghome {
-
-    flex-direction: column;
-}
-.Destacados {
-
-    flex-direction: column;
-}
+  width: 350px;
+  height: 350px;
+  box-shadow: 10px 10px black;
+  padding: 30px auto;
+  border-radius: 5px;
+  align-items: center;
+  margin: auto; }
 
 .contenedorgrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  grid-row-gap: 5px; }
 
+.contenedorfotos {
+  width: 350px;
+  height: 350px; }
+
+.talles {
+  font-family: 'Lato' , serif;
+  color: antiquewhite; }
+
+.links {
+  padding: 0 15px; }
+
+.color {
+  color: whitesmoke; }
+
+.imgindex {
+  animation: tudo;
+  animation-duration: 0.05s;
+  animation-timing-function: ease-out;
+  animation-delay: 1s;
+  animation-iteration-count: 1; }
+
+@keyframes tudo {
+  0% {
+    transform: scale 0.5;
+    border-radius: 100%; }
+  50% {
+    transform: scale(1); }
+  100% {
+    transform: scale(2); } }
+
+.boton {
+  margin: auto;
+  font-size: 15px;
+  padding: 10px 30px;
+  background-color: black;
+  border-radius: 20px;
+  text-decoration: none;
+  color: grey;
+  font-family: 'Lato' , serif;
+  transition: all 1s;
+  justify-content: center; }
+
+.boton:hover {
+  height: 50px;
+  background-color: purple; }
+
+#piedepagina {
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+  background-color: black;
+  color: #6e4f6e;
+  padding: 20px 20px; }
+
+.navbar-colapse {
+  align-items: flex-start; }
+
+.ul_nav {
+  display: flex;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px; }
+
+#navegacion {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 0px;
+  font-family: 'Lato' , serif;
+  text-decoration: none; }
+
+.redessociales {
+  color: aliceblue; }
+
+@media only screen and (max-width: 576px) {
+  header {
     flex-direction: column;
-}
-
-}
+    align-items: center; }
+  .imghome {
+    flex-direction: column; }
+  .Destacados {
+    flex-direction: column; }
+  .contenedorgrid {
+    flex-direction: column; } }
