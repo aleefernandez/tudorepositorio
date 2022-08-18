@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-
+@import "index.scss";
 
 body{
     background-image: linear-gradient(black, purple);
@@ -15,30 +15,21 @@ color: aliceblue;
 align-items: center; 
 }
 
+$estilos: (
+  color: #f0f8ff,
+  fondonav: #000000,
+
+);
+
 .quienessomos {
-    color: aliceblue;
+    color: map-get($estilos, color);
     font-family: 'Lato', sans-serif;
     align-content: center;
     font-size: 200%;
 }
 
 
-.divpublicacion {
-    display: flex;
-    flex-direction: column;
-    margin-right: 20px;
-    margin-left: 20px;
-    border-radius: 20px;
 
-}
-
-.divboton {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 20px;
-}
 
 .container-fluid {
 align-items: baseline;
@@ -54,12 +45,12 @@ align-items: baseline;
 
 .inspiranlinks {
 font-family: 'Lato' , serif;
-color: whitesmoke;    
+color: map-get($estilos, color);    
 }
 
 
 .navbar {
-    background-color: black;
+    background-color: map-get($estilos, fondonav );
 }
 
 .form-control {
@@ -105,9 +96,13 @@ font-family: 'Lato' , serif;
 
 }
 
+@mixin imgsize ($height, $width){
+ height: $height;
+ width: $width;
+
+}
 .contenedorfotos {
-width: 350px;
-height: 350px;
+@include imgsize(350px,350px);
 }
 
 
@@ -204,8 +199,7 @@ color: antiquewhite;
 }
 
 .redessociales {
-    color: aliceblue;
-
+@extend .color
 }
 
 @media only screen and (max-width:768px){

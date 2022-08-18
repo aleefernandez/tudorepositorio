@@ -1,22 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
-body {
-  background-image: linear-gradient(black, purple); }
-
-.letras-top {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-family: 'Lato', sans-serif;
-  font-size: 40px;
-  color: aliceblue;
-  align-items: center; }
-
-.quienessomos {
-  color: aliceblue;
-  font-family: 'Lato', sans-serif;
-  align-content: center;
-  font-size: 200%; }
-
 .divpublicacion {
   display: flex;
   flex-direction: column;
@@ -31,6 +13,24 @@ body {
   margin-bottom: 20px;
   border-radius: 20px; }
 
+body {
+  background-image: linear-gradient(black, purple); }
+
+.letras-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+  color: aliceblue;
+  align-items: center; }
+
+.quienessomos {
+  color: #f0f8ff;
+  font-family: 'Lato', sans-serif;
+  align-content: center;
+  font-size: 200%; }
+
 .container-fluid {
   align-items: baseline; }
 
@@ -42,10 +42,10 @@ body {
 
 .inspiranlinks {
   font-family: 'Lato' , serif;
-  color: whitesmoke; }
+  color: #f0f8ff; }
 
 .navbar {
-  background-color: black; }
+  background-color: #000000; }
 
 .form-control {
   width: 40%; }
@@ -80,8 +80,8 @@ ul {
   grid-row-gap: 5px; }
 
 .contenedorfotos {
-  width: 350px;
-  height: 350px; }
+  height: 350px;
+  width: 350px; }
 
 .talles {
   font-family: 'Lato' , serif;
@@ -90,7 +90,7 @@ ul {
 .links {
   padding: 0 15px; }
 
-.color {
+.color, .redessociales {
   color: whitesmoke; }
 
 .imgindex {
@@ -150,9 +150,6 @@ ul {
   padding: 0px;
   font-family: 'Lato' , serif;
   text-decoration: none; }
-
-.redessociales {
-  color: aliceblue; }
 
 @media only screen and (max-width: 576px) {
   header {
