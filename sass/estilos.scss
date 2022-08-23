@@ -21,18 +21,22 @@ $estilos: (
 
 );
 
-.quienessomos {
-    color: map-get($estilos, color);
-    font-family: 'Lato', sans-serif;
-    align-content: center;
-    font-size: 200%;
+
+.quienesdestacados 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: map-get($estilos, color)
 }
 
-
-
-
 .container-fluid {
-align-items: baseline;
+    display: flex;
+    flex-wrap: inherit;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between
 }
 
 .header {
@@ -54,7 +58,7 @@ color: map-get($estilos, color);
 }
 
 .form-control {
-width: 40%;
+width: 25%;
 }
 
 .Destacados 
@@ -99,7 +103,7 @@ font-family: 'Lato' , serif;
 @mixin imgsize ($height, $width){
  height: $height;
  width: $width;
-
+ 
 }
 .contenedorfotos {
 @include imgsize(350px,350px);

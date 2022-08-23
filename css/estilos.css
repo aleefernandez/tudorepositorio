@@ -25,14 +25,19 @@ body {
   color: aliceblue;
   align-items: center; }
 
-.quienessomos {
-  color: #f0f8ff;
-  font-family: 'Lato', sans-serif;
-  align-content: center;
-  font-size: 200%; }
+.quienesdestacados {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #f0f8ff; }
 
 .container-fluid {
-  align-items: baseline; }
+  display: flex;
+  flex-wrap: inherit;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; }
 
 .header {
   display: flex;
@@ -48,7 +53,7 @@ body {
   background-color: #000000; }
 
 .form-control {
-  width: 40%; }
+  width: 25%; }
 
 .Destacados {
   display: flex;
