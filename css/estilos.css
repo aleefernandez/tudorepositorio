@@ -52,8 +52,9 @@ body {
 .navbar {
   background-color: #000000; }
 
-.form-control {
-  width: 25%; }
+.formulario {
+  display: flex;
+  justify-content: center; }
 
 .Destacados {
   display: flex;
@@ -155,6 +156,10 @@ ul {
   padding: 0px;
   font-family: 'Lato' , serif;
   text-decoration: none; }
+
+.redessociales {
+  display: flex;
+  justify-content: space-around; }
 
 @media only screen and (max-width: 576px) {
   header {

@@ -57,9 +57,11 @@ color: map-get($estilos, color);
     background-color: map-get($estilos, fondonav );
 }
 
-.form-control {
-width: 25%;
+.formulario {
+    display: flex;
+    justify-content: center;
 }
+
 
 .Destacados 
 {
@@ -203,7 +205,10 @@ color: antiquewhite;
 }
 
 .redessociales {
-@extend .color
+@extend .color;
+ display: flex;
+ justify-content: space-around;
+
 }
 
 @media only screen and (max-width:768px){
